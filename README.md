@@ -7,22 +7,7 @@ This repository contains an implementation of the Col-Way cache architecture, as
 
 This implementation was done using the gem5 simulator.
 
-## Submodule: gem5 
-
-To manage the gem5 simulator code, this repository utilizes a submodule pointing to my personal gem5 repository hosted on GitHub. You can add the submodule using this command:
-
-```
-git submodule add <your_gem5_repo_url> gem5
-```
-
-**Note:** Replace `<your_gem5_repo_url>` with the actual URL of your gem5 repository on GitHub.
-
-**To initialize the submodule after cloning this repo:**
-
-```bash
-git submodule init
-git submodule update
-```
+![first_page_paper](https://github.dev/CPS-Lab-IUST/Col-Way/images/first_page_paper.png)
 
 ## Purpose
 
