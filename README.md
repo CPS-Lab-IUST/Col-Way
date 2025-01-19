@@ -88,7 +88,7 @@ The results of the simulation will be stored in the directory specified by the `
 
 ## Author
 
-[Your Name] - [Your GitHub Profile Link]
+AminAllah Janipoor - https://github.com/A19M98A
 
 ## License
 
