@@ -55,21 +55,14 @@ To run the simulation:
 1.  **Clone this repository:**
 
     ```bash
-    git clone <this_repo_url>
-    cd <this_repo_name>
+    git clone https://github.com/A19M98A/gem5/tree/Col_Way
+    cd gem5
     ```
-2.  **Initialize the gem5 submodule:**
-
-    ```bash
-    git submodule init
-    git submodule update
-    ```
-3.  **Build gem5:** (See the `gem5/README.md` in your submodule for detailed instructions). You will need to build gem5 using `scons`, please refer to the submodule README file to build gem5.
-4.  **Place the `col-way.py` file:** Copy the `col-way.py` file from the root directory of this repository into the `gem5/configs/cache` directory within your gem5 submodule.
-5.  **Run the simulation:** Use the following command in the root of the project, where `.` is this repositoy.
+2.  **Build gem5:** (See the `gem5/README.md` in your submodule for detailed instructions). You will need to build gem5 using `scons`, please refer to the submodule README file to build gem5.
+3.  **Run the simulation:** Use the following command in the root of the project.
 
      ```bash
-    ./gem5/build/ARM/gem5.opt -d <output_directory> ./gem5/configs/example/se.py  --caches --l2cache  --l2_config=col-way --l2_size=<L2_SIZE> --l2_assoc=<L2_ASSOC>  --cpu-clock=<CPU-CLOCK> --sys-clock=<SYS_CLOCK>  --mem-type=DDR3  --mem-size=<MEM_SIZE>  -c <benchamark>
+    ./build/ARM/gem5.opt -d <output_directory> ./gem5/configs/example/se.py  --caches --l2cache  --l2_config=col-way --l2_size=<L2_SIZE> --l2_assoc=<L2_ASSOC>  --cpu-clock=<CPU-CLOCK> --sys-clock=<SYS_CLOCK>  --mem-type=DDR3  --mem-size=<MEM_SIZE>  -c <benchamark>
     ```
     **Important:** 
     *  Replace the placeholder values (`<output_directory>`, `<L2_SIZE>`, `<L2_ASSOC>`, `<CPU-CLOCK>`, `<SYS_CLOCK>`, `<MEM_SIZE>`, and `<benchamark>`) with your desired simulation parameters.
