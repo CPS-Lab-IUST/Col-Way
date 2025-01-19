@@ -7,7 +7,7 @@ This repository contains an implementation of the Col-Way cache architecture, as
 
 This implementation was done using the gem5 simulator.
 
-![first_page_paper]([https://github.dev/CPS-Lab-IUST/Col-Way/images/first_page_paper.png](https://github.com/CPS-Lab-IUST/Col-Way/blob/main/images/first_page_paper.png))
+![first_page_paper](images/first_page_paper.png)
 
 ## Purpose
 
